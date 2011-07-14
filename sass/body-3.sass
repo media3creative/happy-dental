@@ -30,7 +30,7 @@
 				height: $banner-height
 				margin: 0
 				padding: 0
-				background: $accent
+
 
 
 
@@ -57,7 +57,7 @@
 	position: relative
 	+float-left
 	clear: none
-	width: $sidebar-width
+	width: 0
 	margin: 0 0 $v-gap $h-gap
 	
 
@@ -188,11 +188,11 @@
 	@extend .font-helvetica
 	position: relative
 	+float-left
-	width: $content-width
+	width: $inside-width
 	.content
 		@extend .box
 		position: relative
-		width: $content-width !important
+		width: $inside-width !important
 		.section
 			@extend .box
 			@extend .clearfix
@@ -215,7 +215,7 @@
 			h1
 				font-family: "EmbedFont-1"
 				@extend .box
-				width: ($content-width - ($content-img-w + ($h-gap / 2)))
+				width: ($inside-width - ($content-img-w + ($h-gap / 2)))
 				margin: $corner-radius 0 ($v-gap/3) ($content-img-w + ($h-gap / 2))
 				padding: 0 3em 0.5em $corner-radius
 				color: $section-title !important
@@ -228,7 +228,7 @@
 			p
 				@extend .font-trebuchet
 				@extend .box
-				width: ($content-width)
+				width: ($inside-width)
 				margin: $corner-radius 0 ($v-gap/3) 0
 				padding: 0 0 0 $corner-radius
 				color: $section-text
@@ -243,6 +243,16 @@
 					text-decoration: none
 					&:hover
 						color: $primary
+				img
+					@extend .box
+					@extend .corner-all
+					@extend .bg-gradient-primary
+					+float-left
+					clear: left
+					width: auto
+					height: auto
+					margin: 0 ($h-gap / 2) ($v-gap / 2) 0
+					z-index: 100
 
 .container-setup
 	@extend .box
@@ -278,7 +288,7 @@
 // Needed to add dotted line between page sections
 .spacer
 	@extend .clearfix
-	width: $content-width
+	width: $inside-width
 	margin-bottom: ($v-gap)
 
 
@@ -286,6 +296,6 @@
 // Re-formats section h1 when no image is used
 .no-image
 	h1, p
-		width: $content-width !important
+		width: $inside-width !important
 		margin-left: 0 !important
 
