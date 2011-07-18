@@ -30,7 +30,6 @@
 				height: $banner-height
 				margin: 0
 				padding: 0
-				background: $accent
 
 
 
@@ -179,9 +178,11 @@
 // Button-style sidebar box
 .form
 	@extend .contact-form
+	
 	iframe
 		width: ($option-width - ($h-gap * 2))
-		margin: 0 ($h-gap)
+		margin: 0 ($h-gap) 50px ($h-gap)
+
 
 .main
 	@extend .section

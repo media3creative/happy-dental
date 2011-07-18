@@ -88,7 +88,7 @@
   background-image: linear-gradient(top, #fef8fb, #f49cc2);
 }
 
-.bg-gradient-gray-light, #footer .center .content {
+.bg-gradient-gray-light {
   background: #efefef;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(top, #efefef, #ffffff);
@@ -332,7 +332,7 @@ b {
   background-image: linear-gradient(top, #fef8fb, #f49cc2);
 }
 
-.bg-gradient-gray-light, #footer .center .content {
+.bg-gradient-gray-light {
   background: #efefef;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(top, #efefef, #ffffff);
@@ -429,10 +429,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-radius: 6px;
 }
 
+#footer {
+  height: 300px;
+}
 #footer .center {
   font-family: "EmbedFont-1";
   margin: 0 auto;
   padding: 15px 0 30px;
+  background: transparent url('../images/footer-bg.jpg?1310744989') repeat-x;
 }
 #footer .center .content {
 @extent .box;

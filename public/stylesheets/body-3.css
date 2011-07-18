@@ -606,15 +606,16 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   display: inline;
   float: left;
   clear: left;
-  width: 400px;
-  height: 225px;
-  margin: 0 15px 15px 0;
+  width: auto;
+  height: auto;
+  padding: 0 15px 15px 0;
   z-index: 100;
+  background: white;
 }
 .main .content .section h1, .main .content .main h1 {
   font-family: "EmbedFont-1";
   width: 485px;
-  margin: 6px 0 10px 415px;
+  margin: 6px 0 10px 286px;
   padding: 0 3em 0.5em 6px;
   color: #83ceef !important;
   font-size: 18px;
@@ -652,6 +653,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: auto;
   margin: 0 15px 15px 0;
   z-index: 100;
+}
+.main .content .section p img.right, .main .content .main p img.right {
+  display: inline;
+  float: right;
+  clear: right;
+  margin: 0 0 15px 15px !important;
+  padding: 0;
+  background: white;
 }
 
 .container-setup, .subnav, .text, .button, .form {

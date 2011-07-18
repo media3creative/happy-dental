@@ -208,15 +208,17 @@
 				@extend .bg-gradient-primary
 				+float-left
 				clear: left
-				width: $content-img-w
-				height: $content-img-h
-				margin: 0 ($h-gap / 2) ($v-gap / 2) 0
+				width: auto
+				height: auto
+				padding: 0 ($h-gap / 2) ($v-gap / 2) 0
 				z-index: 100
+				background: $center-container-bg
+
 			h1
 				font-family: "EmbedFont-1"
 				@extend .box
 				width: ($inside-width - ($content-img-w + ($h-gap / 2)))
-				margin: $corner-radius 0 ($v-gap/3) ($content-img-w + ($h-gap / 2))
+				margin: $corner-radius 0 ($v-gap/3) (271px + ($h-gap / 2))
 				padding: 0 3em 0.5em $corner-radius
 				color: $section-title !important
 				font-size: 18px
@@ -253,6 +255,13 @@
 					height: auto
 					margin: 0 ($h-gap / 2) ($v-gap / 2) 0
 					z-index: 100
+				img.right
+					+float-right
+					clear: right
+					margin: 0 0 ($v-gap / 2) ($h-gap / 2) !important
+					padding: 0
+					background: #fff
+					
 
 .container-setup
 	@extend .box
