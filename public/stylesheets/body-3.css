@@ -612,6 +612,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   z-index: 100;
   background: white;
 }
+.main .content .section iframe.video, .main .content .main iframe.video {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+  float: right;
+  padding-left: 20px;
+}
 .main .content .section h1, .main .content .main h1 {
   font-family: "EmbedFont-1";
   width: 485px;
