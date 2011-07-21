@@ -2,10 +2,10 @@
 
 // MAIN NAVIGATION
 - @link1 = ["Home", "/home"]
-- @link2 = ["About Us", "/page2"]
-- @link3 = ["Doctors", "/page3"]
-- @link4 = ["Services", "/page4"]
-- @link5 = ["Contact", "/page5"]
+- @link2 = ["About Us", "/about"]
+- @link3 = ["Doctors", "/doctors"]
+- @link4 = ["Services", "/services"]
+- @link5 = ["Contact", "/contact"]
 
 // FOOTER LINKS
 - @linkA1 = ["link name", "/path"]
@@ -30,6 +30,7 @@
 %html
   %head
     %title= @sitename + @title + @subtitle
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/    
 
     %link{:href => "/images/favicon.png", :rel => "icon"}
     %link{:href => "/images/appleIcon-1.png", :rel => "apple-touch-icon"}/

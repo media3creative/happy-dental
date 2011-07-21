@@ -16,3 +16,19 @@ h1, h2, h3, h4, h5, h6, p, a {
 	color: #fff;
 	font-size: 9px !important
 }
+
+#header{
+background:
+  /* For Internet Explorer 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#83CEEF, endColorstr=#29aae3); 
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#83CEEF,endColorstr=#29aae3"
+}
+
+#header .center{
+background:
+  /* For Internet Explorer 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#83CEEF, endColorstr=#29aae3); 
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#83CEEF,endColorstr=#29aae3"
+}
