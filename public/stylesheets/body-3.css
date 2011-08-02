@@ -633,6 +633,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   letter-spacing: 0.05em;
   border-bottom: 1px solid #efefef;
 }
+.main .content .section strong, .main .content .main strong {
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+}
 .main .content .section p, .main .content .main p {
   width: 900px;
   margin: 6px 0 10px 0;
