@@ -30,10 +30,6 @@
 				height: $banner-height
 				margin: 0
 				padding: 0
-
-
-
-
 .body
 	@extend .box
 	@extend .clearfix
@@ -202,6 +198,8 @@
 			&:last-child
 				padding-bottom: 0
 				border-bottom: none
+
+
 			img
 				@extend .box
 				@extend .corner-all
@@ -210,9 +208,10 @@
 				clear: left
 				width: auto
 				height: auto
-				padding: 0 ($h-gap / 2) ($v-gap / 2) 0
+				padding: 0 ($h-gap / 2.5) ($v-gap / 2) 0
 				z-index: 100
 				background: $center-container-bg
+				border: solid #fff 10px
 			iframe.video
 				position: relative
 				margin: 0 auto
@@ -220,12 +219,13 @@
 				+float-right
 				padding-left: 20px
 
+
 			h1
 				font-family: "EmbedFont-1"
 				@extend .box
-				width: ($inside-width - ($content-img-w + ($h-gap / 2)))
-				margin: $corner-radius 0 ($v-gap/3) (271px + ($h-gap / 2))
-				padding: 0 3em 0.5em $corner-radius
+				//width: ($inside-width - ($content-img-w + ($h-gap / 2)))
+				// margin: $corner-radius 0 ($v-gap/3) (271px + ($h-gap / 2))
+				// padding: 0 3em 0.5em $corner-radius
 				color: $section-title !important
 				font-size: 18px
 				font-weight: 100
@@ -255,6 +255,7 @@
 					text-decoration: none
 					&:hover
 						color: $primary
+
 				img
 					@extend .box
 					@extend .corner-all
@@ -265,12 +266,13 @@
 					height: auto
 					margin: 0 ($h-gap / 2) ($v-gap / 2) 0
 					z-index: 100
-				img.right
-					+float-right
-					clear: right
-					margin: 0 0 ($v-gap / 2) ($h-gap / 2) !important
-					padding: 0
-					background: #fff
+			img.right
+				position: relative
+				+float-right
+				clear: right 
+				margin: 0 0 ($v-gap / 2) ($h-gap / 2) !important
+				padding: 0
+				background: #fff
 					
 
 .container-setup
@@ -314,6 +316,13 @@
 
 // Re-formats section h1 when no image is used
 .no-image
+	hh6
+	font-family: "EmbedFont-1"
+	@extend .box
+	color: $section-title !important
+	font-size: 18px
+	font-weight: 100
+	border-bottom: none
 	h1, p
 		width: $inside-width !important
 		margin-left: 0 !important

@@ -211,7 +211,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   background: white;
 }
 
-.box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .sidebar, .subnav h1, .text h1, .button h1, .form h1, .subnav h3, .text h3, .button h3, .form h3, .link, .link p, .text p, .button p.link, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup, .subnav, .text, .button, .form {
+.box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .sidebar, .subnav h1, .text h1, .button h1, .form h1, .subnav h3, .text h3, .button h3, .form h3, .link, .link p, .text p, .button p.link, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup, .subnav, .text, .button, .form, .no-image {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -608,9 +608,10 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   clear: left;
   width: auto;
   height: auto;
-  padding: 0 15px 15px 0;
+  padding: 0 12px 15px 0;
   z-index: 100;
   background: white;
+  border: solid white 10px;
 }
 .main .content .section iframe.video, .main .content .main iframe.video {
   position: relative;
@@ -622,9 +623,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .main .content .section h1, .main .content .main h1 {
   font-family: "EmbedFont-1";
-  width: 485px;
-  margin: 6px 0 10px 286px;
-  padding: 0 3em 0.5em 6px;
   color: #83ceef !important;
   font-size: 18px;
   font-weight: 100;
@@ -667,7 +665,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 0 15px 15px 0;
   z-index: 100;
 }
-.main .content .section p img.right, .main .content .main p img.right {
+.main .content .section img.right, .main .content .main img.right {
+  position: relative;
   display: inline;
   float: right;
   clear: right;
@@ -713,6 +712,13 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin-bottom: 30px;
 }
 
+.no-image {
+  font-family: "EmbedFont-1";
+  color: #83ceef !important;
+  font-size: 18px;
+  font-weight: 100;
+  border-bottom: none;
+}
 .no-image h1, .no-image p {
   width: 900px !important;
   margin-left: 0 !important;
