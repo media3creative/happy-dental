@@ -208,7 +208,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .center, #header, .center #logo1, ul#topnav a.topnav, ul#topnav .sub ul li a {

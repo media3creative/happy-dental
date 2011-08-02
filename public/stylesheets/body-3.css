@@ -208,7 +208,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .sidebar, .subnav h1, .text h1, .button h1, .form h1, .subnav h3, .text h3, .button h3, .form h3, .link, .link p, .text p, .button p.link, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup, .subnav, .text, .button, .form, .no-image {
@@ -439,12 +439,12 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center .content {
 @extent .box;
-  width: 900px;
+  width: 870px;
   margin: 0 auto;
   padding: 0;
 }
 .banner .center .content img.banner {
-  width: 900px;
+  width: 870px;
   height: 205px;
   margin: 0;
   padding: 0;
@@ -460,7 +460,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center .content {
 @extent .box;
-  width: 900px;
+  width: 870px;
   margin: 0 auto;
   padding: 0;
 }
@@ -479,7 +479,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   color: #83ceef;
   background: transparent;
-  width: 220px;
+  width: 210px;
   margin: 0 auto;
   padding: 1em 0;
   font-size: 18px;
@@ -491,7 +491,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   color: black;
   background: transparent;
-  width: 220px;
+  width: 210px;
   margin: 0 auto 15px;
   padding: 0;
   font-size: 12px;
@@ -502,7 +502,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .link {
   position: relative;
-  width: 220px;
+  width: 210px;
   margin: 0 auto;
   padding: 0.5em 0;
   font-size: 11px;
@@ -545,7 +545,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .text p {
-  width: 220px;
+  width: 210px;
   margin: 0 auto 15px;
   padding: 0;
   color: #666666;
@@ -560,7 +560,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .button p.link {
   position: relative;
-  width: 232px;
+  width: 222px;
   margin: 0 auto 15px;
   padding: 0;
   color: white;
@@ -579,7 +579,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .form iframe {
-  width: 220px;
+  width: 210px;
   margin: 0 30px;
 }
 
@@ -587,11 +587,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   display: inline;
   float: left;
-  width: 900px;
+  width: 870px;
 }
 .main .content {
   position: relative;
-  width: 900px !important;
+  width: 870px !important;
 }
 .main .content .section, .main .content .main {
   position: relative;
@@ -637,7 +637,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   font-weight: 200;
 }
 .main .content .section p, .main .content .main p {
-  width: 900px;
+  width: 870px;
   margin: 6px 0 10px 0;
   padding: 0 0 0 6px;
   color: #666666;
@@ -680,7 +680,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   display: inline;
   float: left;
   clear: both;
-  width: 280px;
+  width: 270px;
   margin: 0 0 30px 0;
   background: #efefef;
   border: 1px solid #dddddd;
@@ -695,7 +695,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   display: inline;
   float: left;
   clear: left;
-  width: 277px;
+  width: 267px;
   margin: 0 30px 0 0;
 }
 .columns .colR {
@@ -703,12 +703,12 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   display: inline;
   float: left;
   clear: right;
-  width: 277px;
+  width: 267px;
   margin: 0;
 }
 
 .spacer {
-  width: 900px;
+  width: 870px;
   margin-bottom: 30px;
 }
 
@@ -720,6 +720,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-bottom: none;
 }
 .no-image h1, .no-image p {
-  width: 900px !important;
+  width: 870px !important;
   margin-left: 0 !important;
 }

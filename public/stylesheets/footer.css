@@ -208,7 +208,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, #footer .center, #footer .center .content .column {
@@ -435,15 +435,15 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 #footer .center {
   font-family: "EmbedFont-1";
   margin: 0 auto;
-  padding: 15px 0 30px;
-  background: transparent url('../images/footer-bg.jpg?1310744989') repeat-x;
+  padding: 0;
 }
 #footer .center .content {
 @extent .box;
-  width: 900px;
+  width: 918px;
   margin: 0 auto;
   padding: 0;
-  height: 100px;
+  height: 100%;
+  background: transparent url('../images/footer-bg.jpg?1310744989') repeat-x;
 }
 #footer .center .content .column {
   position: relative;

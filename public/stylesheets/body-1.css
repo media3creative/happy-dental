@@ -208,7 +208,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .body .center, .body, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
@@ -439,56 +439,64 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center .content {
 @extent .box;
-  width: 900px;
+  width: 870px;
   margin: 0 auto;
   padding: 0;
 }
 .body .center .content .left a.container {
   margin: 0px 29px 0 0;
+  background: url(/images/home_left.jpg) no-repeat;
 }
 .body .center .content .middle a.container {
   margin: 0px 29px 0 0;
+  background: url(/images/home_center.jpg) no-repeat;
 }
 .body .center .content .right a.container {
   margin: 0;
+  background: url(/images/home_right.jpg) no-repeat;
 }
 
 .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
   position: relative;
   display: inline;
   float: left;
-  width: 280px;
+  width: 270px;
   height: 200px;
-  background: #efefef;
   border: 1px solid #dddddd;
   z-index: 20;
 }
 .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
   font-family: "EmbedFont-1";
   position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
   top: 22.5px;
   left: 22.5px;
   margin: 0 22.5px 0 0;
   color: #83ceef;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
 }
 .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
   position: absolute;
+  padding: 5px;
   top: 75px;
   left: 22.5px;
   margin: 0 76px 12px 0;
-  color: #666666;
+  color: white;
   font-size: 12px;
   font-weight: 200;
+  background: rgba(41, 170, 227, 0.8);
   line-height: 1.3em;
 }
 .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   position: absolute;
   bottom: 15px;
   left: 22.5px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2px;
   display: inline;
   color: #f49cc2;
   font-size: 11px;

@@ -208,7 +208,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .image-slider .center, .image-slider, .image-slider .center h1, .image-slider .center h3, .image-slider .center p.link, .nivoSlider, .nivoSlider img, #slider-wrapper, #slider {
@@ -439,7 +439,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .image-slider .center h1 {
   font-family: "EmbedFont-1";
-  width: 900px;
+  width: 870px;
   margin: 15px 0 0 0;
   padding: 0 30px 0.2em 300px;
   color: #83ceef;
@@ -453,7 +453,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 .image-slider .center h3 {
   position: relative;
   top: 0px;
-  width: 900px;
+  width: 870px;
   margin: 0 0 6px 0;
   padding: 0.4em 30px 0.4em 450px;
   color: #666666;
@@ -482,7 +482,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .nivoSlider {
   position: relative;
-  width: 900px;
+  width: 870px;
   height: 300px;
 }
 
@@ -490,7 +490,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 900px;
+  width: 870px;
   height: 300px;
 }
 
@@ -545,7 +545,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .nivo-directionNav {
-  width: 900px;
+  width: 870px;
   margin: 0;
   padding: 0;
 }
@@ -585,7 +585,7 @@ a.nivo-nextNav {
 #slider-wrapper {
   font-family: "EmbedFont-1";
   position: relative;
-  width: 900px;
+  width: 870px;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
@@ -595,7 +595,7 @@ a.nivo-nextNav {
 
 #slider {
   position: relative;
-  width: 900px;
+  width: 870px;
   height: 300px;
 }
 
