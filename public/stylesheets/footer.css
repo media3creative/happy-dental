@@ -439,7 +439,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 #footer .center .content {
 @extent .box;
-  width: 918px;
+  width: 919px;
   margin: 0 auto;
   padding: 0;
   height: 100%;
