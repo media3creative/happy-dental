@@ -56,14 +56,14 @@
 		@extend .box
 		font-family: "EmbedFont-1"
 		position: absolute
-		background: rgba(255, 255, 255, 0.9)
 		padding: 5px
-		top: ($v-gap * 0.75)
-		left: ($h-gap * 0.75)
+		top: 10px
+		left: 10px
 		margin: 0 ($h-gap * 0.75) 0 0
 		color: $option-title
 		font-size: 20px
 		font-weight: 100
+		text-shadow: 2px 2px 1px #fff
 		word-spacing: .1em
 		letter-spacing: .05em
 	h3
@@ -71,25 +71,24 @@
 		@extend .font-base
 		position: absolute
 		padding: 5px
-		top: 75px
-		left: ($h-gap * 0.75)
-		margin: 0 76px 12px 0
-		color: #fff
+		top: 40px
+		left: 10px
+		margin: 0 10px 12px 0
+		color: $option-title
 		font-size: 12px
 		font-weight: 200
-		background: rgba(41, 170, 227, 0.8)
+		text-shadow: 1px 1px 0px #fff
 		line-height: 1.3em
 	p.link
 		@extend .box
-		@extend .corner-all
 		@extend .font-base
 		position: absolute
-		bottom: ($v-gap * 0.5)
-		left: ($h-gap * 0.75)
-		background: rgba(255, 255, 255, 0.9)
-		padding: 2px
+		bottom: 10px
+		left: 0
+		background: $secondary
+		padding: 3px 1em 3px 30px
 		display: inline
-		color: $option-link
+		color: #fff
 		font-size: 11px
 		font-weight: 200
 		text-decoration: none

@@ -176,7 +176,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   -webkit-border-bottom-left-radius: 6px;
 }
 
-.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -420,7 +420,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   -webkit-border-bottom-left-radius: 6px;
 }
 
-.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -468,37 +468,37 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
   font-family: "EmbedFont-1";
   position: absolute;
-  background: rgba(255, 255, 255, 0.9);
   padding: 5px;
-  top: 22.5px;
-  left: 22.5px;
+  top: 10px;
+  left: 10px;
   margin: 0 22.5px 0 0;
-  color: #83ceef;
+  color: #1c9dd6;
   font-size: 20px;
   font-weight: 100;
+  text-shadow: 2px 2px 1px white;
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
 }
 .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
   position: absolute;
   padding: 5px;
-  top: 75px;
-  left: 22.5px;
-  margin: 0 76px 12px 0;
-  color: white;
+  top: 40px;
+  left: 10px;
+  margin: 0 10px 12px 0;
+  color: #1c9dd6;
   font-size: 12px;
   font-weight: 200;
-  background: rgba(41, 170, 227, 0.8);
+  text-shadow: 1px 1px 0px white;
   line-height: 1.3em;
 }
 .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   position: absolute;
-  bottom: 15px;
-  left: 22.5px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 2px;
+  bottom: 10px;
+  left: 0;
+  background: #f49cc2;
+  padding: 3px 1em 3px 30px;
   display: inline;
-  color: #f49cc2;
+  color: white;
   font-size: 11px;
   font-weight: 200;
   text-decoration: none;

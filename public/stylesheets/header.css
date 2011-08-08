@@ -495,7 +495,7 @@ ul#topnav a.topnav {
 }
 
 ul#topnav li:hover a.topnav, ul#topnav li a.topnav:hover {
-  color: #f49cc2;
+  background: #1c9dd6;
 }
 
 ul#topnav li .sub {
@@ -563,4 +563,5 @@ ul#topnav .sub ul li h2 {
 
 .navigation-hover, body.one a#one, body.two a#two, body.five a#five, body.four a#four, body.three a#three {
   color: #f49cc2;
+  background: #1c9dd6;
 }
