@@ -439,11 +439,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 #footer .center .content {
 @extent .box;
-  width: 919px;
+  width: 918px;
   margin: 0 auto;
   padding: 0;
   height: 100%;
-  background: transparent url('../images/footer-bg.jpg?1310744989') repeat-x;
+  background: transparent url('../images/footer-bg.jpg?1312832419') repeat-x;
 }
 #footer .center .content .column {
   position: relative;

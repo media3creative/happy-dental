@@ -674,6 +674,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   padding: 0;
   background: white;
 }
+.main .content .section h4, .main .content .main h4 {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+span.black {
+  color: black !important;
+}
 
 .container-setup, .subnav, .text, .button, .form {
   position: relative;
