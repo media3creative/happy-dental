@@ -185,16 +185,16 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-radius: 6px;
 }
 
-.clearfix, .body, .body .center, .sidebar, .link, .main .content .section, .main .content .main, .container-setup, .subnav, .text, .button, .form, .columns, .spacer {
+.clearfix, .body, .body .center, .sidebar, .link, .main .content .section, .main .content .main, .container-setup, .subnav, .text, .button, .form, .columns, .spacer, .image-holder {
   zoom: 1;
 }
-.clearfix:before, .body:before, .body .center:before, .sidebar:before, .link:before, .main .content .section:before, .main .content .main:before, .container-setup:before, .subnav:before, .text:before, .button:before, .form:before, .columns:before, .spacer:before {
+.clearfix:before, .body:before, .body .center:before, .sidebar:before, .link:before, .main .content .section:before, .main .content .main:before, .container-setup:before, .subnav:before, .text:before, .button:before, .form:before, .columns:before, .spacer:before, .image-holder:before {
   content: "\0020";
   display: block;
   height: 0;
   overflow: hidden;
 }
-.clearfix:after, .body:after, .body .center:after, .sidebar:after, .link:after, .main .content .section:after, .main .content .main:after, .container-setup:after, .subnav:after, .text:after, .button:after, .form:after, .columns:after, .spacer:after {
+.clearfix:after, .body:after, .body .center:after, .sidebar:after, .link:after, .main .content .section:after, .main .content .main:after, .container-setup:after, .subnav:after, .text:after, .button:after, .form:after, .columns:after, .spacer:after, .image-holder:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -211,7 +211,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   background: url(/images/contBG.png) repeat-y;
 }
 
-.box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .sidebar, .subnav h1, .text h1, .button h1, .form h1, .subnav h3, .text h3, .button h3, .form h3, .link, .link p, .text p, .button p.link, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup, .subnav, .text, .button, .form, .no-image {
+.box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .sidebar, .subnav h1, .text h1, .button h1, .form h1, .subnav h3, .text h3, .button h3, .form h3, .link, .link p, .text p, .button p.link, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup, .subnav, .text, .button, .form, .no-image, .image-holder img.img-sm {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -731,4 +731,16 @@ span.black {
 .no-image h1, .no-image p {
   width: 870px !important;
   margin-left: 0 !important;
+}
+
+.image-holder img.img-sm {
+  position: relative;
+  display: inline;
+  float: left;
+  clear: none !important;
+  margin: 0 22px 0 0 !important;
+  padding: 0 !important;
+  height: 300px;
+  width: 200px;
+  border: none !important;
 }
